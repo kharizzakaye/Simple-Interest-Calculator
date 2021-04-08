@@ -20,7 +20,7 @@
                         <tr>
                             <td class="labels">Interest Rate </td>
                             <td>
-                                <input type="range" min="1" max="20" step="0.25" value="10.25" id="rate"> 
+                                <input type="range" min="1" max="20" step="0.25" value="10.25" id="rate" name="rate" onchange="SliderValue()"> 
                                 <span id="rate_display">10.25%</span>
                             </td>
                         </tr>
@@ -47,10 +47,6 @@
     
                 <button id="compute" onclick="compute()">Compute Interest</button> <br>
                 <span id="result">
-                    If you deposit 1000000, <br>
-                    at an interest rate of 3.5%. <br>
-                    You will recieve an amount of 175000,<br>
-                    in the year 2025
                 </span>
             </div>
 

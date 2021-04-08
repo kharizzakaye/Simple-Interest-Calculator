@@ -22,10 +22,10 @@ h1
     margin-right: auto;
 }
 
-#result
+/* #result
 {
     display: none;
-}
+} */
 
 .contents
 {
@@ -50,4 +50,9 @@ table td
 .labels
 {
     width: 120px;
+}
+
+.highlight
+{
+    background-color: #ffff00;
 }
